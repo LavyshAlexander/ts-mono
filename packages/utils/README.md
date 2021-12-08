@@ -5,7 +5,5 @@
 ## Usage
 
 ```
-const utils = require('@project/utils');
-
-// TODO: DEMONSTRATE API
+import { hasOwn } from '@project/utils'
 ```
