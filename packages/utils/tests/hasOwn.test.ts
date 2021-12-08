@@ -2,7 +2,7 @@ import { hasOwn } from '..'
 import { expect } from 'chai'
 
 
-describe('hasOwn() tests', () => {
+describe('hasOwn()', () => {
 
 	it('should return true if object has own property', () => {
 		const object = { prop: 2 }
