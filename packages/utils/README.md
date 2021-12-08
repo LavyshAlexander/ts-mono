@@ -4,6 +4,6 @@
 
 ## Usage
 
-```
+```TypeScript
 import { hasOwn } from '@project/utils'
 ```

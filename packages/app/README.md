@@ -4,7 +4,7 @@
 
 ## Usage
 
-```
+```TypeScript
 import { expect } from 'chai'
 import { hasName } from '..'
 
