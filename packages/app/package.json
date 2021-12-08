@@ -1,0 +1,33 @@
+{
+	"name": "@project/app",
+	"version": "0.0.1",
+	"description": "Project application.",
+	"keywords": [
+		"app"
+	],
+	"author": "Lavysh Alexander <LavyshAlexander@gmail.com>",
+	"homepage": "https://github.com/LavyshAlexander/ts-mono#readme",
+	"license": "ISC",
+	"main": "lib/index.js",
+	"directories": {
+		"lib": "lib",
+		"test": "tests"
+	},
+	"files": [
+		"lib"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LavyshAlexander/ts-mono.git"
+	},
+
+	"scripts": {
+		"test": "echo \"Error: run tests from root\" && exit 1"
+	},
+	"bugs": {
+		"url": "https://github.com/LavyshAlexander/ts-mono/issues"
+	}
+}
