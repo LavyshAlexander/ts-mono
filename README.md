@@ -15,7 +15,7 @@ Lerna set up with independent packages versioning.
 
 Follow this steps below to set up project.
 
-```
+```bash
 git clone https://github.com/LavyshAlexander/ts-mono.git [project-name]
 cd [project-name]
 yarn
