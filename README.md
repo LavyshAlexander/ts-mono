@@ -1,6 +1,7 @@
 # TypeScript Mono-Repo Project Template
 
 This is a TypeScript project mono-repository template with mocha / chai test.
+Lerna set up with independent packages versioning.
 
 
 ## Prerequirements
