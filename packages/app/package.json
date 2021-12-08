@@ -25,7 +25,7 @@
 		"url": "git+https://github.com/LavyshAlexander/ts-mono.git"
 	},
 	"scripts": {
-		"test": "yarn build && mocha -r ts-node/register tetss/*.test.ts",
+		"test": "yarn build && mocha -r ts-node/register tests/*.test.ts",
 		"build": "tsc"
 	},
 	"bugs": {
