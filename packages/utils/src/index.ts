@@ -1,1 +1,1 @@
-export { has } from './has'
+export { hasOwn } from './hasOwn'
