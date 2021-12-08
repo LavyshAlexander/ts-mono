@@ -9,6 +9,7 @@
 	"homepage": "https://github.com/LavyshAlexander/ts-mono#readme",
 	"license": "ISC",
 	"main": "lib/index.js",
+	"typings": "lib/index.d.ts",
 	"directories": {
 		"lib": "lib",
 		"test": "tests"
@@ -23,11 +24,14 @@
 		"type": "git",
 		"url": "git+https://github.com/LavyshAlexander/ts-mono.git"
 	},
-
 	"scripts": {
-		"test": "echo \"Error: run tests from root\" && exit 1"
+		"test": "yarn build && mocha -r ts-node/register tetss/*.test.ts",
+		"build": "tsc"
 	},
 	"bugs": {
 		"url": "https://github.com/LavyshAlexander/ts-mono/issues"
+	},
+	"dependencies": {
+		"@project/utils": "^0.0.1"
 	}
 }
